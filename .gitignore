@@ -1,0 +1,25 @@
+# Never commit credentials or runtime state
+wp-config.php
+.env
+.env.*
+*.log
+error_log
+error_log.*
+debug.log
+
+# Host / upgrade artefacts
+.htaccess.phpupgrader.*
+.htaccess.no_htaccess.*
+
+# Archives and database dumps
+*.rar
+*.zip
+*.tar
+*.tar.gz
+*.bak
+*.sql
+
+# Uploads are site content, not source
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/

